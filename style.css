@@ -1,0 +1,79 @@
+
+/* -----Navbar css  ---- */
+ul.dropdown-menu>li>a:hover {
+    background-color: #9b51e0 !important;
+    color: white !important;
+}
+.dropdown-menu>li>a{
+    transition: all 0.3s ease;
+}
+
+ul.navbar-nav>li>a:hover {
+    color: #9b51e0 !important;
+}
+ul.navbar-nav li a{
+    transition: all 0.3s ease;
+    padding-right: 35px !important;
+}
+
+/* Section-1 CSS  */
+.full-bg-color{
+ background-color: #222466 !important;
+}
+
+/* Section-2 CSS  */
+.full-bg-color-2{
+    background-image: url(images/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ---For we offer section CSS ---*/
+.text-color-purple{
+    color: #9b51e0;
+}
+.bg-color-we-offer{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #BCB7FF 0%, #EFD8FF 100%);
+}
+.bg-color-we-offer {
+  position: relative;
+  overflow: hidden; /* prevent overlay from going outside */
+}
+
+/* Create overlay on hover */
+.bg-color-we-offer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* transparent black overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.bg-color-we-offer:hover::before {
+  opacity: 1;
+}
+
+.Schedule-btn-hover{
+    background-color: #222466 !important;
+    
+}
+
+.get-started-photo-bg{
+    background-color: #B5CEFF;
+}
+.title-font-size{
+    font-size: 50px;
+}
+.bg-contact-us-for{
+   background-color: #F0F0FF ;
+}
+.company-deck-btn-color{
+    background-color: #6C63EB !important;
+}
